@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Animales
 {
-    public interface IAnimal
+    public interface IAnimal : IComun
     {
+        public Especie Especie { get; set; }
     }
 }

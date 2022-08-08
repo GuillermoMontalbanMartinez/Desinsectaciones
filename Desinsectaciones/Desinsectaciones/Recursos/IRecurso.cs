@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Recursos
 {
-    public interface IRecurso
+    public interface IRecurso : IComun
     {
         public double Coste { get; set; }
     }

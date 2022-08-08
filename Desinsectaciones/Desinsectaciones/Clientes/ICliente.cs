@@ -9,6 +9,6 @@ namespace Desinsectaciones.Clientes
     public interface ICliente : IComunTrabajadorCliente
     {
         public int CodigoPostal { get; set; }
-        
+
     }
 }

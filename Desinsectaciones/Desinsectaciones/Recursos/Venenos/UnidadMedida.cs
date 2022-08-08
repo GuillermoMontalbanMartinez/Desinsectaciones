@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desinsectaciones.Recursos.Vehiculos
+namespace Desinsectaciones.Recursos.Venenos
 {
-    public interface IVehiculo
+    public enum UnidadMedida
     {
+        MiliGramo,
+        Gramo,
+        KiloGramo,
     }
 }

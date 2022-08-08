@@ -8,6 +8,7 @@ namespace Desinsectaciones.Recursos.Venenos
 {
     public interface IVeneno : IRecurso
     {
-        public string UnidadMedida { get; set; }
+        public UnidadMedida UnidadMedida { get; set; }
+        public double Cantidad { get; set; }
     }
 }

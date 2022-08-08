@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Trabajadores.Gerentes
 {
-    internal interface IGerente
+    public interface IGerente
     {
     }
 }

@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desinsectaciones.Recursos.Vehiculos
+namespace Desinsectaciones.Animales
 {
-    public interface IVehiculo
+    public enum Especie
     {
+        Roedor,
+        Insecto
+
     }
 }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desinsectaciones.Recursos.Vehiculos
+namespace Desinsectaciones.Servicios
 {
-    public interface IVehiculo
+    public interface IServicio
     {
     }
 }
