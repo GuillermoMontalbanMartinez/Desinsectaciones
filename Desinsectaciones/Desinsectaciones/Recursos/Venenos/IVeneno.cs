@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Recursos.Venenos
 {
-    public interface IVeneno
+    public interface IVeneno : IRecurso
     {
+        public string UnidadMedida { get; set; }
     }
 }

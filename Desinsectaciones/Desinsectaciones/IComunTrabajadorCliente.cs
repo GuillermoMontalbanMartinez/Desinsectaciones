@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones
 {
-    public interface IComun
+    public interface IComunTrabajadorCliente : IComun
     {
-        public string Nombre { get; set; }
-        
+        public string Telefono { get; set; }
+        public string Email { get; set; }
     }
 }

@@ -8,6 +8,6 @@ namespace Desinsectaciones.Recursos
 {
     public interface IRecurso
     {
-        public double coste { get; set; }
+        public double Coste { get; set; }
     }
 }
