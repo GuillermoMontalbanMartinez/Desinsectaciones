@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Recursos.Vehiculos
 {
-    public interface IVehiculo
+    public interface IVehiculo : IComun
     {
+        public string Marca { get; set; }
+        public string Carroceria { get; set; }
     }
 }

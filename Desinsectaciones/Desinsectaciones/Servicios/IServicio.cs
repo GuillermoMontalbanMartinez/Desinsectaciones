@@ -8,5 +8,6 @@ namespace Desinsectaciones.Servicios
 {
     public interface IServicio
     {
+        public double PrecioServicio { get; set; }
     }
 }

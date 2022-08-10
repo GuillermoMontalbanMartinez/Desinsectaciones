@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Trabajadores
 {
-    public interface ITrabajador : IComunTrabajadorCliente
+    public interface IJefeEquipoPeon : ITrabajador
     {
-        
-
+        public double IngresoPorServicio { get; set; }
     }
 }

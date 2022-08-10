@@ -8,8 +8,10 @@ namespace Desinsectaciones.Animales
 {
     public enum Especie
     {
-        Roedor,
-        Insecto
-
+        Mamifero,
+        Insecto,
+        Gusano,
+        Reptil,
+        Ave
     }
 }

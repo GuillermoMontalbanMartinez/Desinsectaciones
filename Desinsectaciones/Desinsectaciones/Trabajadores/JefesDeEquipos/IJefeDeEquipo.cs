@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Trabajadores.JefesDeEquipos
 {
-    public interface IJefeDeEquipo : ITrabajador
+    public interface IJefeDeEquipo : IJefeEquipoPeon
     {
 
     }

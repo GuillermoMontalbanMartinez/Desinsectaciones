@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Trabajadores.Peones
 {
-    public interface IPeon
+    public interface IPeon : IJefeEquipoPeon
     {
     }
 }
