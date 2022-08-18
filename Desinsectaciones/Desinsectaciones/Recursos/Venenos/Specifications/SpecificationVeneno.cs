@@ -10,7 +10,11 @@ namespace Desinsectaciones.Recursos.Venenos.Specifications
     {
         public bool IsValid(IVeneno veneno)
         {
-            throw new NotImplementedException();
+            if (veneno is not null)
+            {
+                return veneno.Coste < 2 && veneno.Coste > 0;
+            }
+            return false;
         }
     }
 }
