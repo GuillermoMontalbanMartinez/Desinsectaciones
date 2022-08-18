@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Desinsectaciones.Animales
 {
-    internal class Animal : IAnimal
+    public class Animal : IAnimal
     {
         public string Nombre { get; set; }
         public Especie Especie { get; set; }
